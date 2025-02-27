@@ -1,0 +1,10 @@
+server:
+  servlet:
+     context-path: /rastame
+  port: 9090
+spring:
+  application:
+    name: RastaME
+  profiles:
+    active: dev
+

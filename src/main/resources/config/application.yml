@@ -7,4 +7,6 @@ spring:
     name: RastaME
   profiles:
     active: dev
-
+  jackson:
+    parser:
+      allow-comments: true

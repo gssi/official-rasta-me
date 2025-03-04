@@ -11,7 +11,8 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("api/metadataenricher")
-@CrossOrigin(origins = "http://localhost:8080")
+//@CrossOrigin(origins = "http://localhost:8080")
+@CrossOrigin()
 public class RastaMEController {
 
     private static final Logger logger = LoggerFactory.getLogger(RastaMEController.class);
